@@ -1,0 +1,56 @@
+@media screen and (max-width:768px){
+     
+    .menu ul li{
+    margin-top: 40px;   
+    }
+
+
+    .nav-links{
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 7vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        
+    }
+    .menu li{
+        opacity: 0;
+    }
+    .lines{
+        display: block;
+    }
+    .lines div{
+        transition: transform 0.5s ease-out;
+    }
+
+}
+.nav-active{
+    transform: translateX(0);
+}
+@keyframes navLinkFade{
+    from{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to{
+    transform: translateX(0);
+    opacity: 1;        
+    }
+}
+
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
