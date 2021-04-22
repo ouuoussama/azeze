@@ -5,8 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cardo', serif ;
+}
 html,body{
-    font-family: 'Cardo', sans-serif;
+    
     overflow-x: hidden;
     width: 100%;
     height: auto;
@@ -155,7 +161,6 @@ header{
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    
 }
 .img2 > img{
     width: 100%;
@@ -231,4 +236,43 @@ header{
 .bntdada button{
     padding: 10px 25px;
     border: 2px solid;
+}
+
+.why{
+    background-color: #383340 !important;
+    width: 100%;
+    height: auto;
+}
+.titlewhy{
+    color: #ffffff;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.titlewhy h1{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 50px;
+}
+.groupmam{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 3rem;
+}
+.offers{
+    width: 100%;
+    max-width: 250px;
+    padding: 50px 0px;
+}
+.offers h4{
+    padding: 15px 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.baba{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
 }
