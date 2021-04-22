@@ -1,0 +1,40 @@
+<!--<div class="navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+               <div class="navbar nav ">
+                <a class="brand" href="#">
+                    <img src="img/favicon.png" alt="" width="40">
+                  </a>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#">What's New</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+               </div>
+               <div class="nav-btn nav" >
+                    <button>Download Now</button>
+               </div>
+            </div>
+                   <div class="container1">
+                <a class="brand2" href="#">
+                    <img src="img/favicon.png" alt="" width="40">
+                  </a>
+                    <div class="lines">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+             </div>
+            </div>-->
