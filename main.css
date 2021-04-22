@@ -80,6 +80,7 @@
         max-width: 700px;
     }
 }
+
 @media  screen and (max-width:829px) {
     .para{
         width: 700px;
@@ -109,7 +110,20 @@
     .para1{
         padding-left: 0px;
     }
-    
+    .sir{
+        width: 600px;
+    }
+    .pasta{
+        padding: 0;
+    }
+}
+@media  screen and (max-width:767px){
+    .pasta{
+        width: 500px;
+    }
+    .para-cube{
+        padding: 0rem  0 0 0rem;
+    }
 }
 @media screen and (max-width:645px){
    .para1{
@@ -145,6 +159,9 @@
     .para1{
         padding-left: 20px;
     }
+    .sir{
+        width: 490px;
+    }
 }
 @media screen and (max-width:500px) {
     .para{
@@ -152,6 +169,9 @@
     }
     .para1{
        padding-left: 40px;
+    }
+    .sir{
+        width: 450px;
     }
 
 }
@@ -162,7 +182,11 @@
 ////////////////////*/
 
 
-
+@media  screen and (max-width:440px){
+    .pasta{
+        width: 450px;
+    }
+}
 
 
 
@@ -198,6 +222,12 @@
     .most p{
         font-size: 14px;
     }
+    .pasta{
+        width: 400px;
+    }
+    .sir{
+        width: 360px;
+    }
 }
 
 
@@ -211,15 +241,26 @@
         text-align: justify;
         padding-left: 60px;
     }
+    .pasta{
+        width: 320px;
+    }
+    .sir{
+        width: 320px;
+    }
 }
 @media screen and (max-width:350px){
     .img2 img{
         text-align: justify;
         padding-left: 0;
     }
-    
+    .koko img{
+        text-align: justify;
+    }
     .para{
         width: 200px;
+    }
+    .pasta{
+        width: 250px;
     }
 }
 
