@@ -238,35 +238,59 @@ header{
     border: 2px solid;
 }
 
-.why{
-    background-color: #383340 !important;
-    width: 100%;
-    height: auto;
-}
-.titlewhy{
-    color: #ffffff;
-    padding-top: 50px ;
-    padding-bottom: 50px;
-    text-align: center;
-}
+  /*  background-color: #383340 !important;
+ 
+
 .titlewhy h1{
     font-weight: 600;
     font-size: 3rem;
     margin-top: 50px;
-}
-.groupmam{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 3rem;
-}
+
 .offers{
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     padding: 50px 0px;
 }
 .offers h4{
     padding: 15px 0 10px;
     font-size: 20px;
     font-weight: 600;
+*/
+/*.container{
+    background-color: #E89E09;
+}*/
+.total{
+    background-color: #383340 !important;
 }
-
+.goupaer{
+    padding-top: 85px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.lonwan{
+    color: #ffffff;
+}
+.lonwan h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.prooffers{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 60px 5%;
+}
+.offers{
+    padding: 8% 15%;
+    line-height: 1.5;
+}
+.offers, h4 p{
+    color: #ffffff;
+}
+.offers h4{
+    font-size: 1.3rem;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.offers p{
+    font-size: 1rem;
+}

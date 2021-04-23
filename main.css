@@ -125,6 +125,9 @@
     .para-cube{
         padding: 0rem  0 0 0rem;
     }
+    .prooffers{
+         padding: 5% 15%;
+    }
 }
 @media screen and (max-width:645px){
    .para1{
@@ -154,6 +157,7 @@
     }
 }
 @media screen and (max-width:550px){
+    
     .para{
         width: 470px;
     }
@@ -163,6 +167,9 @@
     .sir{
         width: 490px;
     }
+}
+@media screen and (max-width:520px){
+    
 }
 @media screen and (max-width:500px) {
     .para{
@@ -182,7 +189,15 @@
 //////////////////////////////
 ////////////////////*/
 
+@media  screen and (max-width:499px){
+    
+}
+@media screen and (max-width:476px){
+    
+}
+@media screen and (max-width: 445px){
 
+}
 @media  screen and (max-width:440px){
     .pasta{
         width: 450px;
@@ -190,8 +205,13 @@
 }
 
 
-
-
+@media screen and (max-width: 419px){
+.groupmam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
 
 
 @media  screen and (max-width:440px) {
