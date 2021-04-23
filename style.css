@@ -256,9 +256,7 @@ header{
     font-size: 20px;
     font-weight: 600;
 */
-/*.container{
-    background-color: #E89E09;
-}*/
+
 .total{
     background-color: #383340 !important;
 }
@@ -280,7 +278,7 @@ header{
     padding: 60px 5%;
 }
 .offers{
-    padding: 8% 15%;
+    padding: 8% 21%;
     line-height: 1.5;
 }
 .offers, h4 p{
