@@ -301,6 +301,13 @@
 
 
 @media screen and (max-width:390px){
+    .container2{
+        padding-left: 15px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
     .para{
         width: 350px;
     }
@@ -320,6 +327,15 @@
     .prooffers{
         padding: 5% 0%;
    }
+}
+@media screen and (max-width:360px){
+    .container2{
+        padding-left: 9px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width:345px){
     .img2 img{
@@ -342,13 +358,22 @@
         padding-top: 20px;
     }
     .container2{
-        padding-left: 15px;
+        padding-left: 17px;
         padding-right: 0px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
     }
     
+}
+@media screen and (max-width:330px){
+    .container2{
+        padding-left: 15px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width:291px){
     .prooffers{
