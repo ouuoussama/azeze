@@ -314,6 +314,7 @@ header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-top: 8rem;
+    padding-bottom: 50px;
 }
 .planimg{
     display: grid;
@@ -339,7 +340,7 @@ header{
 
 }
 .planprt{
-    width: 280px;
+    width: 290px;
     border-radius: 8px;
     margin: 20px;
     padding: 60px 20px 50px 20px;
@@ -352,11 +353,33 @@ header{
     height: 100px;
     margin: 15px;
 }*/
+.callicon{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);;
+    border-radius: 50%;
+    margin-right: 12px;
+    margin-left: 2px;
+}
+.cous{
+    padding-right: 12px;
+    
+}
+.callicon img{
+    width: 17px;
+    line-height: 40px;
+    margin: 11px;
+}
+.btnicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .lolmbtn {
-   background-image: linear-gradient(45deg, #3D58F3, #9548F9);
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    background-image: linear-gradient(45deg, #3D58F3, #9548F9);
+    
+    
+    padding-left: 5px;
     color: #ffffff;
 }
 .mlmqa{
@@ -419,4 +442,51 @@ header{
 }
 .card-1c ul li {
     list-style: none;
+}
+/*/////////////////////////
+////////////////////////
+///////////////////////////////
+///////////////////////
+//////////////////////
+////////////////
+//////////=///*/
+
+
+.storie{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg_testimonials.jpg');
+    width: 100%;
+    height: 75vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.customer{
+    margin-top: 6rem;
+    color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 170px;
+}
+.customer h1{
+    padding-bottom: 53px;
+}
+.customer p{
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+}
+.customer h4{
+    padding-top: 30px;
+}
+.mama{
+    width: 100%;
+    height: 100vh;
+    background-color: darkgrey;
+}
+.customer button{
+    margin-top: 30px;
+}
+.btnstorie{
+    border: 2px solid;
+    padding: 10px 30px;
 }

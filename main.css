@@ -152,6 +152,9 @@
     .plan2-img{
         margin-right: 20px;
     }
+    .customer{
+        margin-left: 0px;
+    }
 }
 
 @media  screen and (max-width:829px) {
