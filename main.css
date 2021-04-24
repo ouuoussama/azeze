@@ -2,7 +2,26 @@
     .para-cube{
         padding: 5rem  0 0 2rem;
     }
-   
+    .planimg{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-gap: 0rem;
+        margin-right: 0px;
+    }
+    .container3{
+        padding-left: 0px;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    
+    }
+    .paraplan{
+        margin: 110px 68px 1px 48px;
+    }
+    .planprt{
+        width: 270px;
+    }
 }
 
 
@@ -22,6 +41,15 @@
         justify-content: center;
         align-content: center;
     }*/
+    .planprt{
+        width: 230px;
+    }
+    .liste-item ul{
+        padding-left: 1rem;
+    }
+    .card-1c h5 {
+        font-size: 1.35rem;
+}
 }
 @media screen and (max-width:991px) {
     .client{
@@ -82,9 +110,14 @@
     }
     .offers{
         padding-top: 21%;
+
     }
-    .plan2-img{
-        margin-top: 0;
+    .container3 {
+        padding-left: 0px;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0;
     }
     .paraplan{
         margin-top: 0px;
@@ -93,7 +126,31 @@
     }
     .planimg{
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 50px;
+    }
+    .plan1-img{
+        transform: none;
+    }
+    .planprt{
+        width: 300px;
+        margin: 0 20px;
+    }
+    .plan{
+        margin-top: 0rem;
+    }
+    .paraplan{
+        margin: 110px 0px 0px 20px;
+    }
+    .liste-item ul{
+        padding-left: 3rem;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    .plan1-img{
+        margin-left: 40px;
+    }
+    .plan2-img{
+        margin-right: 20px;
     }
 }
 
@@ -142,6 +199,28 @@
     }
     .prooffers{
          padding: 5% 15%;
+    }
+    .offers{
+        padding: 8% 0;
+    }
+    .planprt{
+        width: 300px;
+        margin: 0;
+    }
+    .planimg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .plan1-img{
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+    .plan2-img{
+        margin-right: 0;
+        margin-top: 1rem;
+        
     }
 }
 @media screen and (max-width:645px){
