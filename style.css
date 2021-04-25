@@ -397,7 +397,7 @@ header{
     padding-bottom: 32px;
 }
 .liste-item ul{
-    padding-left: 3rem;
+    padding-left: 1rem;
     margin-bottom: 1rem;
     margin-top: 0;
     
@@ -444,7 +444,22 @@ header{
 .card-1c ul li {
     list-style: none;
 }
-/*/////////////////////////
+
+.tick{
+    background-color: rgba(96, 47, 218, 0.16);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.tick img{
+    width: 100%;
+    max-width: 12px;
+    padding: 0px 0px 5px 3px;
+    transform: translate(4%);
+}
+       /* /////////////////////////
 ////////////////////////
 ///////////////////////////////
 ///////////////////////
