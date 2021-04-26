@@ -352,6 +352,9 @@
     .input-contact{
         padding-right: 20px;
     }
+    .h1-input{
+        width: 316px;
+    }
 }
 
 
@@ -412,6 +415,10 @@
    .input-contact{
        padding-right: 38px;
    }
+   .illcontact > img {
+    width: 88%;
+    height: 100%;
+}
 }
 
 
@@ -442,6 +449,7 @@
     width: 83%;
     height: 100%;
 }
+
 }
 @media screen and (max-width:375px){
     .planprt {
@@ -452,6 +460,9 @@
         width: 77%;
         height: 100%;
     }
+    .input-contact{
+        padding-right: 75px;
+        }
 }
 @media screen and (max-width:355px){
     .prooffers{
@@ -528,7 +539,7 @@
         padding: 5% 0%;
    }
    .input-contact{
-    padding-right: 70px;
+    padding-right: 75px;
 }
 }
 @media screen and (max-width:369px){
