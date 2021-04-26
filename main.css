@@ -281,7 +281,7 @@
     .lastlist ul{
         padding-left: 0;
     }
-    .container5{
+    .container6{
         text-align: center;
     }
 }
@@ -336,6 +336,15 @@
     }
     .sir{
         width: 450px;
+    }
+    .container6{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .last{
+        color: #ffffff;
+        padding: 0 0;
+        padding-bottom: 23px;
     }
 
 }
@@ -482,6 +491,9 @@
     .input-contact{
         padding-right: 75px;
         }
+        .brand2 {
+            padding-right: 10px;
+        }
 }
 @media screen and (max-width:355px){
     .prooffers{
@@ -522,16 +534,25 @@
     .pasta{
         width: 250px;
     }
-    .container5{
-        padding: 0;
-    }
+    
+    
 }
 
 
 
 
 
-
+@media screen and (maw-width:499px){
+    .container6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .last{
+        color: #ffffff;
+        padding: 0 0;
+        padding-bottom: 23px;
+    }
+}
 @media screen and (max-width:390px){
     .container2{
         padding-left: 15px;
@@ -580,6 +601,15 @@
         padding-right: 85px;
     }
 }
+@media screen and (max-width:349px){
+    .lastlist ul li {
+        padding: 0 14px;
+        margin-top: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
 @media screen and (max-width:345px){
     .img2 img{
         max-width: 200px;
@@ -607,6 +637,13 @@
         margin-right: auto;
         padding-top: 20px;
     }
+    .lastlist ul li {
+        padding: 0 14px;
+        margin-top: 30px;
+        font-size: 14px;
+        text-align: center;
+    }
+
     
 }
 @media screen and (max-width:330px){
@@ -627,6 +664,18 @@
     .illcontact > img {
         width: 65%;
         height: 100%;
+    }
+    .container5{
+        padding-left: 15px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    }
+    .lastlist ul li {
+        padding: 0 10px;
+        margin-top: 30px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:291px){
