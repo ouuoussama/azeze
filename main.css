@@ -14,13 +14,22 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
-    
     }
     .paraplan{
         margin: 110px 68px 1px 48px;
     }
     .planprt{
         width: 270px;
+    }
+    /*/////*/
+    .group-input{
+        margin-left: 50px;
+    }
+    .illcontact {
+        padding: 185px 72px 10px 25px;
+    }
+    .input-contact {
+        margin-right: 70px;
     }
 }
 
@@ -50,6 +59,16 @@
     .card-1c h5 {
         font-size: 1.35rem;
 }
+    .group-input{
+        margin-left: 70px;
+    }
+    .illcontact {
+        padding: 185px 0px 10px 0px;
+    }
+    .input-contact {
+        margin-right: 0px;
+}
+
 }
 @media screen and (max-width:991px) {
     .client{
@@ -155,6 +174,25 @@
     .customer{
         margin-left: 0px;
     }
+    /************/
+    .illcontact > img {
+        width: 100%;
+        height: 100%;
+    }
+    .container4 {
+        padding-top: 0;
+        margin-top: 0rem;
+    }
+    .illcontact {
+        padding: 120px 0px 10px 0px;
+    }
+    .h1-input{
+         width: 500px;
+     }
+     .group-input{
+         margin-top: 90px;
+         margin-left: 0;
+     }
 }
 
 @media  screen and (max-width:829px) {
@@ -223,7 +261,9 @@
     .plan2-img{
         margin-right: 0;
         margin-top: 1rem;
-        
+    }
+    .h1-input{
+        width: 450px;
     }
 }
 @media screen and (max-width:645px){
@@ -291,20 +331,27 @@
     .prooffers{
         padding: 5% 10%;
    }
+   .h1-input{
+    width: 380px;
+}
 }
 @media  screen and (max-width:440px){
     .pasta{
         width: 450px;
     }
+
 }
 
 
-@media screen and (max-width: 419px){
+@media screen and (max-width: 425px){
 .groupmam {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+    .input-contact{
+        padding-right: 20px;
+    }
 }
 
 
@@ -343,9 +390,29 @@
     .sir{
         width: 360px;
     }
+    input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      .input-contact {
+        margin-right: 0px;
+        padding-right: 20px;
+    }
+    .illcontact > img {
+        width: 92%;
+        height: 100%;
+    }
 }
 
 
+@media  screen and (max-width:419px){
+   .input-contact{
+       padding-right: 38px;
+   }
+}
 
 
 
@@ -365,12 +432,51 @@
     .prooffers{
         padding: 5% 8%;
    }
+   .input-contact{
+    padding-right: 58px;
+    }
+.h1-input{
+    width: 316px;
+}
+.illcontact > img {
+    width: 83%;
+    height: 100%;
+}
+}
+@media screen and (max-width:375px){
+    .planprt {
+        width: 270px;
+        margin-right: 30px;
+    }
+    .illcontact > img {
+        width: 77%;
+        height: 100%;
+    }
 }
 @media screen and (max-width:355px){
     .prooffers{
         padding-right: 0;
         padding-right: 0;
    }
+   .planimg {
+    margin-right: 28px;
+}
+   
+    input[type=text], textarea {
+        width: 100%;
+        max-width: 261px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      .h1-input{
+          width: 300px;
+      }
+      .illcontact > img {
+        width: 70%;
+        height: 100%;
+    }
 }
 @media screen and (max-width:350px){
     .img2 img{
@@ -421,6 +527,14 @@
     .prooffers{
         padding: 5% 0%;
    }
+   .input-contact{
+    padding-right: 70px;
+}
+}
+@media screen and (max-width:369px){
+    .input-contact{
+        padding-right: 80px;
+    }
 }
 @media screen and (max-width:360px){
     .container2{
@@ -429,6 +543,9 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
+    }
+    .input-contact{
+        padding-right: 85px;
     }
 }
 @media screen and (max-width:345px){
@@ -468,6 +585,17 @@
         margin-right: auto;
         padding-top: 20px;
     }
+    .planprt {
+        width: 260px;
+        margin-right: 40px;
+    }
+    .h1-input{
+        width: 250px;
+    }
+    .illcontact > img {
+        width: 65%;
+        height: 100%;
+    }
 }
 @media screen and (max-width:291px){
     .prooffers{
@@ -485,4 +613,3 @@
         width: 250px;
     }
 }
- 

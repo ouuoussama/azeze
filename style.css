@@ -480,6 +480,7 @@ header{
     width: 100%;
     max-width: 500px;
     margin-left: 170px;
+    padding-bottom: 6rem;
 }
 .customer h1{
     padding-bottom: 33px;
@@ -508,7 +509,7 @@ header{
    /* background-color: turquoise;*/
    margin-top: 5rem;
 }
-/*.contatcus{
+.contatcus{
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -517,7 +518,7 @@ header{
     width: 380px;
     color: #6b6872;
 }
-/*.h1-input h1{
+.h1-input h1{
     font-size: 3.25rem;
     
 }
@@ -548,10 +549,10 @@ label {
   }
   .input-contact{
       margin-right: 60px;
-      
+     
       /*background-color: #602FDA;*/
   }
- /* .illcontact{
+  .illcontact{
     padding: 185px 72px 10px 91px;  
 }
 .submity{
