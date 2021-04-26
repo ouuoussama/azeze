@@ -68,6 +68,9 @@
     .input-contact {
         margin-right: 0px;
 }
+.subscribe{
+    margin-left: 0;
+}
 
 }
 @media screen and (max-width:991px) {
@@ -193,6 +196,9 @@
          margin-top: 90px;
          margin-left: 0;
      }
+     .lastlist ul li{
+         padding: 0;
+     }
 }
 
 @media  screen and (max-width:829px) {
@@ -264,6 +270,19 @@
     }
     .h1-input{
         width: 450px;
+    }
+    .lastcontent{
+        display: inline-block;
+    }
+    .lastlist ul li{
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+    .lastlist ul{
+        padding-left: 0;
+    }
+    .container5{
+        text-align: center;
     }
 }
 @media screen and (max-width:645px){
@@ -393,7 +412,7 @@
     .sir{
         width: 360px;
     }
-    input[type=text], textarea {
+    .input-contact > input[type=text], textarea {
         width: 100%;
         padding: 12px;
         border: 1px solid #ccc;
@@ -473,7 +492,7 @@
     margin-right: 28px;
 }
    
-    input[type=text], textarea {
+.input-contact > input[type=text], textarea {
         width: 100%;
         max-width: 261px;
         padding: 12px;
@@ -503,7 +522,9 @@
     .pasta{
         width: 250px;
     }
-    
+    .container5{
+        padding: 0;
+    }
 }
 
 
