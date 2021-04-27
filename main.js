@@ -1,9 +1,27 @@
-var button = document.querySelector(".navbar-toggler");
-var menu =document.querySelector("#navbarTogglerDemo01");
-button.addEventListener("click", function(event){
-    if (menu.style.display == "none") {
-        menu.style.display = "";
-    } else {
-        menu.style.display = "none";
-    }
-})
+function isElementVisible($elementToBeChecked)
+{
+    var TopView = $(window).scrollTop();
+    var BotView = TopView + $(window).height();
+    var TopElement = $elementToBeChecked.offset().top;
+    var BotElement = TopElement + $elementToBeChecked.height();
+    return ((BotElement <= BotView) && (TopElement >= TopView));
+}
+
+$(window).scroll(function () {
+    $( ".bar" ).each(function() {
+        $this = $(this);
+        isOnView = isElementVisible($(this));
+        if(isOnView && !$(this).hasClass('Starting')){
+            $(this).addClass('Starting');
+            startAnimation($(this));
+        }
+    });
+});
+
+function startAnimation($this) {
+  $this.animate({
+    width: "100%"
+  }, 3000, function() {
+    // Animation complete.
+  });
+}

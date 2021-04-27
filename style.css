@@ -150,6 +150,7 @@ header{
   .client{
       margin-bottom: 90px;
       margin-top: 150px;
+      
   }
 .client img{
     width: auto;
@@ -158,6 +159,11 @@ header{
     max-height: 100px;
     padding: 0 62px;
     margin: 130px 0 10px;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 .position{
     background-image: url(pattern_1.svg);
@@ -739,8 +745,12 @@ hr{
         opacity: 0;
         transform: translateY(80%);
     }   
-    85%{
-        opacity: 0.7;
+    25%{
+        opacity: 1;
+        transform: translateY(40%) .1s;
+    }
+    75%{
+        opacity: 1;
         transform: translateY(40%) .1s;
     }
     100% {
